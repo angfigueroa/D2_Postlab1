@@ -23,51 +23,51 @@ int display(int lecADC, int disp){
 
 int convdisp(int valor){
     if (valor == 0){
-        return 0b11000000;
+        return 0b11000000;//0
     }
     else if (valor == 1){
-        return 0b11111001;
+        return 0b11111001;//1
     }
     else if (valor == 2){
-        return 0b10100100;
+        return 0b10100100;//2
     }
     else if (valor == 3){
-        return 0b10110000;
+        return 0b10110000;//3
     }
     else if (valor == 4){
-        return 0b10011001;
+        return 0b10011001;//4
     }
     else if (valor == 5){
-        return 0b10010010;
+        return 0b10010010;//5
     }
     else if (valor == 6){
-        return 0b10000010;
+        return 0b10000010;//6
     }
     else if (valor == 7){
-        return 0b11111000;
+        return 0b11111000;//7
     }
     else if (valor == 8){
-        return 0b10000000;
+        return 0b10000000;//8
     }
     else if (valor == 9){
-        return 0b10010000;
+        return 0b10010000;//9
     }
     else if (valor == 10){
-        return 0b10001000;
+        return 0b10001000;//10
     }
     else if (valor == 11){
-        return 0b10000011;
+        return 0b10000011;//11
     }
     else if (valor == 12){
-        return 0b11000110;
+        return 0b11000110;//12
     }
     else if (valor == 13){
-        return 0b10100001;
+        return 0b10100001;//13
     }
     else if (valor == 14){
-        return 0b10000110;
+        return 0b10000110;//14
     }
     else if (valor == 15){
-        return 0b10001110;
+        return 0b10001110;//15
     }
 }
